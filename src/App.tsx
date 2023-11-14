@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './App.css'
 import HomePage from './pages/homepage'
-import Header from './pages/components/Header'
+import HeaderPage from './pages/components/header.tsx'
 import Footer from './pages/components/footer'
 import LoginPage from './pages/login'
 import Profile from './pages/profile'
@@ -12,14 +12,14 @@ function App() {
       <Routes>
         <Route path='/' element={(
         <>
-          <Header/>
+          <HeaderPage/>
           <HomePage/>
           <Footer/>
         </>
     )}/>
       <Route path='/login' element={(
         <>
-          <Header />
+          <HeaderPage />
           <LoginPage />
           <Footer />
         </>
@@ -27,7 +27,7 @@ function App() {
       <Route path='/Profile' element={
         (
           <>
-            <Header/>
+            <HeaderPage/>
             <Profile />
           </>
         )
