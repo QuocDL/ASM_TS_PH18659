@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.price:hover .text1{
+  display: none;
+}
+.price:hover .text-buy{
+  display: inline;
+}
+.rating:hover .rating-count{
+  display: inline;
+}
+.rating:hover .rate{
+  display: none;
+}
