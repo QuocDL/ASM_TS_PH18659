@@ -9,7 +9,7 @@ const Profile = () => {
         </div>
         <div className="mt-6 w-fit mx-auto">
           <img
-            src="../../public/1a1d69823e1be945b00a.jpg"
+            src="./1a1d69823e1be945b00a.jpg"
             className="rounded-full w-28 "
             alt="profile picture"
             srcSet=""
