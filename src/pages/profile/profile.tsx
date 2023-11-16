@@ -9,7 +9,7 @@ const Profile = () => {
         </div>
         <div className="mt-6 w-fit mx-auto">
           <img
-            src="https://i.pinimg.com/originals/2a/92/06/2a9206a4a0d1d23cf92636c42115d054.jpg"
+            src="https://scontent.fhan14-2.fna.fbcdn.net/v/t39.30808-6/378229932_708960944407464_1201804895590157296_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeE7b0pp45UK0x_UGDNetAqn_K2aKfcMGhD8rZop9wwaEKWC7pD7xwHL5YU5Bz_r7Hx6iMP9Fhm6r22f9gGZlZov&_nc_ohc=8r0B6uvQEYgAX_URl8O&_nc_ht=scontent.fhan14-2.fna&oh=00_AfA-nfVltJq6eGo8PLtip5Pktd_ZnFEbKc9caFXbMMysEw&oe=655B4468"
             className="rounded-full w-28 "
             alt="profile picture"
             srcSet=""
