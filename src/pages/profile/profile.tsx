@@ -68,6 +68,25 @@ const Profile = () => {
             </div>
           </div>
         </div>
+        <div className="flex justify-center mt-[5%] gap-[15px]">
+          <h3 className="text-gray-400 text-sm">My contact</h3>
+          <div>
+            <a href="https://www.facebook.com/quoc.luongchinh.9/" target="_blank">
+              <img src="https://th.bing.com/th/id/R.1da1f4c7af14206de84ef932e1a7dd7b?rik=HcBm4zsRukQimg&riu=http%3a%2f%2flouisville.edu%2fmedicine%2fdepartments%2fbiochemistry%2four_people%2fstudent-directories%2fnetworking-icons%2ffacebook-logo%2fimage&ehk=%2bjplaE%2bB12VXvCrsjgrJtgpxWZWcntx8c7hPPmZt7kQ%3d&risl=&pid=ImgRaw&r=0"
+                width={20}
+                className="rounded-[5px] hover:cursor-pointer"
+                alt="" />
+            </a>
+          </div>
+          <div>
+            <a href="0383144530" target="">
+              <img src="https://th.bing.com/th/id/OIP._mld5w0sl3HkFAoWqbbohgHaHa?rs=1&pid=ImgDetMain"
+                width={20}
+                className="rounded-[10px]"
+                alt="" />
+            </a>
+          </div>
+        </div>
       </section>
     </section>
 
