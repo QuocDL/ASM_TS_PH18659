@@ -11,7 +11,7 @@ const HomePage = () => {
             const { data } = await axios.get('https://fakestoreapi.com/products')
             setProducts(data)
         } catch (error) {
-            console.log('Loi');
+            console.log('Connect API Failed!');
         }
     }
 
