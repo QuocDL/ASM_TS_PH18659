@@ -4,34 +4,34 @@ import HomePage from './pages/homepage'
 import HeaderPage from './pages/components/header.tsx'
 import Footer from './pages/components/footer'
 import LoginPage from './pages/login'
-import Profile from './pages/profile'
+import Profile from './pages/profile/profile.tsx'
 
 function App() {
-  return(
+  return (
     <BrowserRouter>
       <Routes>
         <Route path='/' element={(
-        <>
-          <HeaderPage/>
-          <HomePage/>
-          <Footer/>
-        </>
-    )}/>
-      <Route path='/login' element={(
-        <>
-          <HeaderPage />
-          <LoginPage />
-          <Footer />
-        </>
-      )}/>
-      <Route path='/Profile' element={
-        (
           <>
-            <HeaderPage/>
-            <Profile />
+            <HeaderPage />
+            <HomePage />
+            <Footer />
           </>
-        )
-      }/>
+        )} />
+        <Route path='/login' element={(
+          <>
+            <HeaderPage />
+            <LoginPage />
+            <Footer />
+          </>
+        )} />
+        <Route path='/Profile' element={
+          (
+            <>
+              <HeaderPage />
+              <Profile />
+            </>
+          )
+        } />
       </Routes>
     </BrowserRouter>
   )
