@@ -5,6 +5,7 @@ import HeaderPage from './pages/components/header.tsx'
 import Footer from './pages/components/footer'
 import LoginPage from './pages/login'
 import Profile from './pages/profile/profile.tsx'
+import ProductDetail from './pages/productdetail.tsx'
 
 function App() {
   return (
@@ -31,6 +32,13 @@ function App() {
               <Profile />
             </>
           )
+        } />
+        <Route path='/product/:productId' element={
+          (<>
+            <HeaderPage />
+            <ProductDetail />
+            <Footer />
+          </>)
         } />
       </Routes>
     </BrowserRouter>

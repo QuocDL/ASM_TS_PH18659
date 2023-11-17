@@ -1,6 +1,13 @@
 import { useParams } from "react-router-dom"
 
 const ProductDetail = () => {
-    const { productID } = useParams()
-    return
+    const { productId } = useParams()
+    return (
+        <div>
+            <h1 className="color-black">
+                product detail {productId}
+            </h1>
+        </div>
+    )
 }
+export default ProductDetail
