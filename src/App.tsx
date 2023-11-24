@@ -1,11 +1,11 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './App.css'
-import HomePage from './pages/Homepage.tsx'
-import HeaderPage from './pages/components/Header.tsx'
-import Footer from './pages/components/Footer.tsx'
-import LoginPage from './pages/Login.tsx'
-import Profile from './pages/components/Profile.tsx'
-import ProductDetail from './pages/ProductDetail.tsx'
+import HomePage from './pages/Homepage'
+import HeaderPage from './pages/components/Header'
+import Footer from './pages/components/Footer'
+import LoginPage from './pages/Login'
+import Profile from './pages/components/Profile'
+import ProductDetail from './pages/ProductDetail'
 
 function App() {
   return (
