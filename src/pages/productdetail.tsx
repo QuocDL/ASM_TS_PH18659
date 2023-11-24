@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom"
 import axios from "axios"
 import { useEffect, useState } from "react"
-import { Product, ProductContentType, ProductDetailType } from "../type/Product"
+import { Product, ProductDetailType } from "../type/Product"
 import ProductRelate from "./components/ProductRelate"
 
 
