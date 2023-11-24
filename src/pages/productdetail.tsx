@@ -21,7 +21,7 @@ const ProductDetail = () => {
                 )
             })
         } catch (error) {
-            console.log('Connect API Failed!');
+            console.log('Connect API Failed please check your code!');
         }
     }
     useEffect(() => {
