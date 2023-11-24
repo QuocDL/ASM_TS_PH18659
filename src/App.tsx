@@ -1,10 +1,10 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './App.css'
-import HomePage from './pages/homepage'
+import HomePage from './pages/homepage.tsx'
 import HeaderPage from './pages/components/header.tsx'
-import Footer from './pages/components/footer'
-import LoginPage from './pages/login'
-import Profile from './pages/profile/profile.tsx'
+import Footer from './pages/components/footer.tsx'
+import LoginPage from './pages/login.tsx'
+import Profile from './pages/components/profile.tsx'
 import ProductDetail from './pages/productdetail.tsx'
 
 function App() {

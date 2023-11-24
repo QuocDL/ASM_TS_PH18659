@@ -1,7 +1,7 @@
-import { productContentType } from "../../type/type"
+import { ProductContentType } from "../../type/Product"
 import { Link } from "react-router-dom"
 
-const ProductContent: React.FC<productContentType> = ({ product }) => {
+const ProductContent: React.FC<ProductContentType> = ({ product }) => {
 
     return (
         <a key={product.id} href="" className="w-[356px] transition-all hover:shadow-lg h-[296px] border rounded-[5%] p-[10px]">

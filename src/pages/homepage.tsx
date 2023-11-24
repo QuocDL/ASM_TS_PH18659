@@ -1,11 +1,11 @@
 import { useEffect, useState } from 'react'
-import { product } from '../type/type'
+import { Product } from '../type/Product'
 import axios from 'axios'
-import ProductContent from './components/products'
+import ProductContent from './components/Product'
 
 
 const HomePage = () => {
-    const [products, setProducts] = useState<product[]>([])
+    const [products, setProducts] = useState<Product[]>([])
     const fetchProduct = async () => {
         try {
             const { data } = await axios.get('https://fakestoreapi.com/products')
