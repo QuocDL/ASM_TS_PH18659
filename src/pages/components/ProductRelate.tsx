@@ -8,7 +8,7 @@ const ProductRelate: React.FC<productCardRalate> = ({ product }) => {
             <div>
                 <img className="w-[120px] h-[140px] hover:scale-105 transition-all" src={product?.image} alt="" />
             </div>
-            <p className="w-[110%] font-medium text-[14px] whitespace-nowrap text-ellipsis overflow-hidden ">{product?.title}</p>
+            <p title={product?.title} className="w-[110%] font-medium text-[14px] whitespace-nowrap text-ellipsis overflow-hidden ">{product?.title}</p>
 
             <div className="flex justify-center">
                 <span className="flex p-[2px] bg-blue-300 wi text-[.8rem] w-[40px] rounded-[5px]"><svg className="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">

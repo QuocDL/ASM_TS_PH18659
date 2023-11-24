@@ -1,12 +1,10 @@
 import { useParams } from "react-router-dom"
 import axios from "axios"
 import { useEffect, useState } from "react"
-import { Product } from "../type/Product"
+import { Product, ProductContentType, ProductDetailType } from "../type/Product"
 import ProductRelate from "./components/ProductRelate"
 
-type ProductDetailType = Product & {
-    productListRalated: Product[];
-}
+
 
 const ProductDetail = () => {
     const { productId } = useParams()
@@ -35,7 +33,7 @@ const ProductDetail = () => {
             <div className="py-[5%] ">
                 <div className="flex gap-[50px]">
                     <div className="mt-[10px]">
-                        <img src={ProductDetail?.image} alt="" className="w-[430px] h-[250px]" />
+                        <img src={ProductDetail?.image} alt="" className="w-[360px]" />
                     </div>
                     <div>
                         <div>

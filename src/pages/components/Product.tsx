@@ -7,8 +7,7 @@ const ProductContent: React.FC<ProductContentType> = ({ product }) => {
         <a key={product.id} href="" className="w-[356px] transition-all hover:shadow-lg h-[296px] border rounded-[5%] p-[10px]">
             <Link to={`/product/${product.id}`}>
                 <div className="flex justify-center items-center py-[5%]">
-
-                    <img src={product.image} alt="" className="w-[100px] h-[120px]" />
+                    <img src={product.image} alt="" className="w-[100px] hover:scale-125 transition-all h-[120px]" />
                 </div>
                 <div className="text text-center">
                     <h3 title={product.title} className="font-medium overflow-hidden whitespace-nowrap text-ellipsis">{product.title}</h3>

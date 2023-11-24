@@ -17,3 +17,6 @@ export type ProductContentType = {
 export type productCardRalate = {
     product: Product
 }
+export type ProductDetailType = Product & {
+    productListRalated: Product[];
+}
