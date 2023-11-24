@@ -1,9 +1,6 @@
-import { Product } from "../../type/Product"
+import { productCardRalate } from "../../type/Product"
 
 
-type productCardRalate = {
-    product: Product
-}
 
 const ProductRelate: React.FC<productCardRalate> = ({ product }) => {
     return (
